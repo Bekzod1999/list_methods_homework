@@ -116,7 +116,7 @@ Output: 2
 **Example 2:**
 
 ```Python
-Input: fruits = ["apple", "banana", "apple", "apple", "apple]
+Input: fruits = ["apple", "banana", "apple", "apple", "apple"]
 Output: 4
 
 ```
