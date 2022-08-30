@@ -8,7 +8,8 @@ def main(list1):
     """
     a = list1.count(1)
     b = list1.count(0)
-    return a, b
+    list = [a, b]
+    return list
 
-x = main([0, 1, 0, 0, 1])
+x = main([1, 0, 0, 0, 1, 0, 1, 0])
 print(x)
