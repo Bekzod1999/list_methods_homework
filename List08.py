@@ -6,4 +6,13 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+    i = 0
+    list1 = []
+    while i < len(fruits):
+        if fruits[i] != 'apple':
+            list1.append(fruits[i])
+        i+=1
+    return list1
+
+x =main(['app', 's', 'apple', 'df'])
+print(x)
